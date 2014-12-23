@@ -1,0 +1,42 @@
+# Compile using "tragesym PIC16F1454.tsym PIC16F1454.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=2000
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=PIC16F1454
+device=PIC16F1454
+refdes=U?
+footprint=SO14
+description=Microchip Microcontroller
+documentation=39931d-1.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		pwr	line	r		Vcc
+2		io	line	l		RA5
+3		io	line	l		RA4
+4		io	line	l		\_MCLR\_/Vpp/RA3
+5		io	line	l		RC5
+6		io	line	l		RC4
+7		io	line	l		RC3
+8		io	line	l		RC2
+9		io	line	r		RC1/ICSPCLK
+10		io	line	r		RC0/ICSPDAT
+11		pwr	line	r		VUSB3V3
+12		io	line	r		RA1/D-
+13		io	line	r		RA0/D+
+14		pwr	line	r		Vss
