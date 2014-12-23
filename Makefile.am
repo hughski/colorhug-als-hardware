@@ -10,15 +10,19 @@ MAINTAINERCLEANFILES =					\
 CLEANFILES =						\
 	*.*~						\
 	*.backup					\
-	*.cmd
+	*.zip						\
+	hardware.cmd					\
+	hardware.net					\
+	hardware.new.pcb				\
+	hardware.pcb-					\
+	hardware.pcb.*					\
+	hardware.png
 
 designdir = $(datadir)/colorhug-hardware
 design_DATA =						\
-	custom-punch.svg				\
 	gafrc						\
 	hardware.pcb					\
-	hardware.sch					\
-	screen-gasket.svg
+	hardware.sch
 
 EXTRA_DIST = ${design_DATA}
 

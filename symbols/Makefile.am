@@ -1,12 +1,11 @@
 GENERATED_FILES =					\
-	L78L33AC.sym					\
-	PIC18F46J50.sym					\
+	PlugUSB.sym					\
+	PIC16F1454.sym					\
 	TCS3200.sym
 
 designsymbolsdir = $(datadir)/colorhug-hardware/symbols
 designsymbols_DATA =					\
-	${GENERATED_FILES}				\
-	USB_mini_TYPE-B_5_SMT.sym
+	${GENERATED_FILES}
 
 all: ${GENERATED_FILES}
 
