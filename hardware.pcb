@@ -789,13 +789,14 @@ Attribute("PCB::grid::unit" "mil")
 Via[4.9944mm 320.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[6.9944mm 320.02mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[100.00mil 320.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[370.00mil 320.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[370.00mil 320.00mil 41.00mil 20.00mil 0.0000 20.00mil "" "thermal(1X)"]
 Via[240.00mil 560.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[240.00mil 490.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[240.00mil 630.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[240.00mil 700.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[430.00mil 610.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[430.00mil 700.00mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[50.00mil 700.00mil 41.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 
 Element["" "0805" "R2" "100" 350.00mil 460.00mil 81.50mil -61.50mil 3 76 ""]
 (
@@ -866,7 +867,7 @@ Element["" "SO8" "U1" "unknown" 240.00mil 630.00mil -200.00mil -100.00mil 0 76 "
 
 	)
 
-Element["onsolder" "0805" "C1" "10uf" 50.00mil 610.00mil -0.6420mm -117.50mil 1 76 "auto"]
+Element["onsolder" "0805" "C1" "10uf" 50.00mil 590.00mil -0.6420mm -117.50mil 1 76 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -936,7 +937,6 @@ Layer(1 "component")
 	Line[235.00mil 705.00mil 240.00mil 700.00mil 15.00mil 20.00mil "clearline"]
 	Line[40.00mil 424.57mil 95.43mil 424.57mil 15.00mil 20.00mil "clearline"]
 	Line[95.43mil 424.57mil 100.00mil 420.00mil 10.00mil 20.00mil "clearline"]
-	Line[40.00mil 495.43mil 40.00mil 540.00mil 15.00mil 20.00mil ""]
 	Line[350.00mil 495.43mil 405.43mil 495.43mil 15.00mil 20.00mil "clearline"]
 	Line[350.00mil 424.57mil 170.00mil 424.57mil 15.00mil 20.00mil "clearline"]
 	Line[170.00mil 495.43mil 125.43mil 495.43mil 15.00mil 20.00mil ""]
@@ -946,6 +946,7 @@ Layer(1 "component")
 	Line[342.50mil 555.00mil 395.00mil 555.00mil 15.00mil 20.00mil ""]
 	Line[342.50mil 605.00mil 342.50mil 622.50mil 15.00mil 20.00mil ""]
 	Line[342.50mil 555.00mil 342.50mil 620.00mil 15.00mil 20.00mil ""]
+	Line[50.00mil 495.43mil 50.00mil 540.00mil 15.00mil 20.00mil ""]
 	Polygon("clearpoly")
 	(
 		[0.0000 360.00mil] [470.00mil 360.00mil] [470.00mil 720.00mil] [450.00mil 740.00mil] [20.00mil 740.00mil] 
@@ -978,16 +979,14 @@ Layer(2 "solder")
 	Line[270.00mil 460.00mil 362.50mil 460.00mil 15.00mil 21.00mil "clearline"]
 	Line[157.50mil 510.00mil 90.00mil 510.00mil 15.00mil 20.00mil "clearline"]
 	Line[157.50mil 410.00mil 100.00mil 410.00mil 15.00mil 20.00mil ""]
-	Line[50.00mil 645.43mil 50.00mil 690.00mil 15.00mil 20.00mil ""]
 	Line[157.50mil 560.00mil 64.57mil 560.00mil 15.00mil 20.00mil "clearline"]
-	Line[64.57mil 560.00mil 50.00mil 574.57mil 15.00mil 20.00mil "clearline"]
 	Line[362.50mil 660.00mil 270.00mil 660.00mil 15.00mil 20.00mil "clearline"]
 	Line[6.9944mm 404.63mil 220.00mil 460.00mil 15.00mil 20.00mil "clearline"]
 	Line[220.00mil 460.00mil 157.50mil 460.00mil 15.00mil 20.00mil "clearline"]
-	Line[370.00mil 320.00mil 370.00mil 350.00mil 15.00mil 20.00mil ""]
 	Line[6.9944mm 8.0104mm 6.9944mm 404.63mil 15.00mil 20.00mil "clearline"]
 	Line[440.00mil 460.00mil 440.00mil 500.00mil 15.00mil 20.00mil ""]
 	Line[362.50mil 610.00mil 430.00mil 610.00mil 15.00mil 20.00mil "clearline"]
+	Line[50.00mil 625.43mil 50.00mil 700.00mil 15.00mil 20.00mil ""]
 	Text[20.00mil 150.00mil 0 99 "(C) Hughski 2015" "clearline,onsolder"]
 	Text[60.00mil 220.00mil 0 100 "ColorHug ALS" "clearline,onsolder"]
 	Polygon("clearpoly")
