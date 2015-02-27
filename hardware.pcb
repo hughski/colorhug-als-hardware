@@ -945,6 +945,7 @@ Layer(1 "component")
 	Line[430.00mil 515.43mil 410.00mil 495.43mil 15.00mil 20.00mil "clearline"]
 	Line[342.50mil 555.00mil 395.00mil 555.00mil 15.00mil 20.00mil ""]
 	Line[342.50mil 605.00mil 342.50mil 622.50mil 15.00mil 20.00mil ""]
+	Line[342.50mil 555.00mil 342.50mil 620.00mil 15.00mil 20.00mil ""]
 	Polygon("clearpoly")
 	(
 		[0.0000 360.00mil] [470.00mil 360.00mil] [470.00mil 720.00mil] [450.00mil 740.00mil] [20.00mil 740.00mil] 
